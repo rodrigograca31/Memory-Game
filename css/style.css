@@ -1,0 +1,12 @@
+.tile {
+    cursor: pointer;
+    height: 50px;
+    background-color: #ccc;
+}
+.tile.selected {
+    background-color: #0f0;
+}
+.tile.done {
+    cursor: default;
+    background-color: #00f;
+}
